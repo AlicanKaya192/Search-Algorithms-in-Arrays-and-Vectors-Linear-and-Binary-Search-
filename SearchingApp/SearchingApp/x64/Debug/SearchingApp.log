@@ -1,0 +1,21 @@
+﻿  Searching.cpp
+  SearchingApp.cpp
+C:\Users\alica\source\repos\SearchingApp\SearchingApp\Searching.cpp(27,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'SearchingApp.cpp')
+      C:\Users\alica\source\repos\SearchingApp\SearchingApp\Searching.cpp(27,15):
+      the template instantiation context (the oldest one first) is
+          C:\Users\alica\source\repos\SearchingApp\SearchingApp\SearchingApp.cpp(14,23):
+          see reference to function template instantiation 'int binarySearchFirst<int>(std::vector<int,std::allocator<int>>,T)' being compiled
+          with
+          [
+              T=int
+          ]
+          C:\Users\alica\source\repos\SearchingApp\SearchingApp\Searching.cpp(46,17):
+          see reference to function template instantiation 'int binarySearch<int>(std::vector<int,std::allocator<int>>,T)' being compiled
+          with
+          [
+              T=int
+          ]
+  
+  Generating Code...
+  SearchingApp.vcxproj -> C:\Users\alica\source\repos\SearchingApp\x64\Debug\SearchingApp.exe
